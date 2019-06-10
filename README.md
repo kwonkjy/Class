@@ -1,2 +1,2 @@
 # class
-https://kwonkjy.github.io/class/
+https://kwonkjy.github.io/Class/
