@@ -1,2 +1,2 @@
-# exercise
-https://kwonkjy.github.io/exercise/.
+# class
+https://kwonkjy.github.io/class/
