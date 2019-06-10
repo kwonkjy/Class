@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">HTML</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">CSS</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">JavaScript</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">JQuery</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Content</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">HTML</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">CSS</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">JavaScript</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">JQery</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+	  <h1 class="w3-text-teal">웹퍼블리셔 과정</h1>
+      <h5 class="w3-text-teal">2019년 4월 27일~7월 13일</h5>
+	  
+      <p>1. 훈련과정명 : 웹퍼블리셔(HTML5, CSS3, JS, JQuery)
+	  <p>2. 총 훈련기간(시간) : 3개월(90시간) / 토 10~17:30 (7.5) * 12주
+	  <p>3. 훈련수준 : 3수준
+	  <p>4. 훈련대상자(선수능력) : 해당사항 없음
+	  <p>5. 훈련목표 : 화면구현(UI구현하기), 웹퍼블리셔실무(HTML5/CSS3/JavaScript/jQery)<p>
+	  지식습득을 통해 관련 분야 업무를 수행할 수 있다. <p><hr>
+	  <h6 class="w3-text-teal">*훈련과정 국가직무능력표준 분류</h6>
+	   <table border="1">
+	    <tr>
+			<td>대분류</td>
+			<td>중분류</td>
+			<td>소분류</td>
+			<td>세부분류</td>
+	    </tr>
+	    <tr>
+			<td>20.정보통신</td>
+			<td>01.정보기술</td>
+			<td>02.정보기술개발</td>
+			<td>02.응용SW엔지니어링</td>
+	    </tr>
+	  </table><hr>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">
+	  <ul>
+	    <li>가. NCS 소양교과(직업기초능력)</li>
+		<li>나. NCS 전공교과 : 48시간</li>
+		<li>다. 비NCS 교과 : 42시간</li>
+	  </ul></p>
+  <!--    <p class="w3-border w3-padding-large w3-padding-64 w3-center"></p>-->
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h2 class="w3-text-teal">UI구현하기</h2>
+	  HTML 요소와 CSS 표현 기법 및 자바스크립트에 대하여 학습한다. UI 설계 문서를 토대로 UI 화면을 구성하는 HTML 요소들을 파악하고 CSS를 활용한 페에지 디자인을 학습한다. UI 설계 문서를 토대로 UI 화면을 구성하는 HTML 요소들을 파악하고 CSS를 활용한 페이지 디자인을 학습한다.
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h2 class="w3-text-teal">웹퍼블리셔실무</h2>
+      <p>HTML 문서작성을 통한 태그의 연계성과 시멘틱 웹의 개념을 이해하여 웹표준에 맞는 문서를 작성하는 실습을 학습한다. 스토리보드로 작업한 결과물을 통해 어떠한 그래픽 요소가 웹문서에 배치될지 고려하여 레이아웃을 구성하는 방법을 학습한다. 다른 웹사이트의 구성요소를 벤치마킹하여, 웹표준에 맞게 웹페이지를 작성해본다. </p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">1</a>
+      <a class="w3-button w3-hover-black" href="#">2</a>
+      <a class="w3-button w3-hover-black" href="#">3</a>
+      <a class="w3-button w3-hover-black" href="#">4</a>
+      <a class="w3-button w3-hover-black" href="#">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Footer</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
